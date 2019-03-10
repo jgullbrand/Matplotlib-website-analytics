@@ -7,7 +7,7 @@ I used matplotlib to create marketing charts based on website data. I have the w
 ![website_visitor_analytics](https://user-images.githubusercontent.com/40340806/54092727-cc4f0780-4365-11e9-9d3e-fd32e26348ba.png)
 
 
-**q4_revenue.csv - the total revenue breakdown between subscriptions and marketing campaigns**
+**q4_revenue.csv - The breakdown between the two main revenue sources: customer subscriptions and social marketing campaigns.**
 
 ![website_revenue](https://user-images.githubusercontent.com/40340806/54092725-c8bb8080-4365-11e9-82ed-ee1dfa8068d4.png)
 
