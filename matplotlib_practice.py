@@ -39,7 +39,7 @@ plt.legend(loc =2)
 #plt.show()
 #plt.savefig('website_revenue.png') # will save the file to your directory
 
-# --------------- Stacked bar graph showing the breakdown of revenue ---------------
+# --------------- PIE CHART ---------------
 
 plt.close('all') # this first clears out the previous plots before we begin this next one.
 
@@ -65,9 +65,3 @@ plt.legend(sources)
 plt.axis('equal')
 #plt.show()
 #plt.savefig('top_sources.png')
-
-
-
-
-
-
