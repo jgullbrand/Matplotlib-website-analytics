@@ -16,7 +16,7 @@ plt.plot(months, new_visitors, label="New Website Visitors", marker='o', color='
 plt.legend() # This shows line labels
 plt.ylabel('# Website Visitors')
 plt.title('Website Analytics - 2018')
-#plt.show() # displays chart
+plt.show() # displays chart
 #plt.savefig('website_visitor_analytics.png') # will save the file to your directory
 
 
@@ -36,10 +36,10 @@ plt.bar(months, campaigns, label="Campaigns", bottom = subscriptions, color = '#
 plt.title('Revenue 2018: Subscriptions & Campaigns')
 plt.ylabel('Total Revenue ($)')
 plt.legend(loc =2)
-#plt.show()
+plt.show() # displays chart
 #plt.savefig('website_revenue.png') # will save the file to your directory
 
-# --------------- PIE CHART ---------------
+# --------------- Pie Chart displaying top channels + top sources for website visitors  ---------------
 
 plt.close('all') # this first clears out the previous plots before we begin this next one.
 
@@ -55,7 +55,7 @@ source_visitors = top_sources['Website Visitors']
 plt.pie(channel_visitors, autopct='%0.2f%%', textprops={'fontsize': 12, 'color': 'black'})
 plt.legend(channels)
 plt.axis('equal')
-#plt.show()
+plt.show() # displays chart
 #plt.savefig('top_channels.png')
 
 plt.close('all') # this first clears out the previous plots before we begin this next one.
@@ -63,5 +63,5 @@ plt.close('all') # this first clears out the previous plots before we begin this
 plt.pie(source_visitors, autopct='%0.2f%%', textprops={'fontsize': 12, 'color': 'black'})
 plt.legend(sources)
 plt.axis('equal')
-#plt.show()
+plt.show()
 #plt.savefig('top_sources.png')
